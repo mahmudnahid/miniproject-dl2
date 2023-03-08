@@ -14601,6 +14601,23 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Problem-Definition:">Problem Definition:<a class="anchor-link" href="#Problem-Definition:">&#182;</a></h2><p>In the previous semester we classified text  with traditional ML algorithms and for this semester, we would like to compare Deep learning models to traditional ML models for text classification. So we will set up the baseline with a Random Forest model and compare that to different Deep Learning models like FCNN,RNN, LSTM &amp; GRU. We will also compare different hyperparameters and  model architectures of our deep learning models. We will be using Keras Tuner to tune the hyperparameters and then use tensorboard to compare the results.</p>
+<h2 id="Dataset:">Dataset:<a class="anchor-link" href="#Dataset:">&#182;</a></h2><p>We want to work with a <a href="https://www.kaggle.com/datasets/cosmos98/twitter-and-reddit-sentimental-analysis-dataset?select=Reddit_Data.csv">Reddit Sentimental analysis</a> dataset available on kaggle. The dataset contains 37K Comments along with its Sentimental Label (Positive-Negative-Neutral). The Dataset has two columns, the first column has the cleaned comments and the second one indicates its Sentimental Label.</p>
+<h2 id="Methodology:">Methodology:<a class="anchor-link" href="#Methodology:">&#182;</a></h2><p><strong>Data Preprocessing:</strong> This involves cleaning and normalizing the text, such as converting to lowercase, removing stop words, stemming or lemmatizing, etc.</p>
+<p><strong>Feature extraction:</strong> This step involves converting the preprocessed text into numerical features that the models can learn from- such as using text vectoriaztion.</p>
+<p><strong>Model architecture:</strong> For this section we decided to try both traditional machine learning methods(Random forest) and deep learning methods (FCN-LSTM-RNN-GRU) and make a benchmark algorithm to compare different models and identify the best one. We will try different neural networks with different number of layers  and different the number of neurons in each layer and then try other hyperparameters as well.</p>
+<p><strong>Hyperparameter tuning:</strong> The process of hyperparameter tuning involves running the algorithm multiple times with different hyperparameter values and selecting the best combination that results in the best performance. For this purpose, we want to try different numbers of dropout layers, regularizations and optimizers.</p>
+
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
