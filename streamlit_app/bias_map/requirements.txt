@@ -1,0 +1,5 @@
+tensorflow
+transformers
+plotly
+kaleido
+streamlit
