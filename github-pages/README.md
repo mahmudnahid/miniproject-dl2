@@ -2,6 +2,9 @@ This repository demonstrates:
 1. A conversion of a Jupyter notebook into a static HTML
 2. Serving this HTML using Github Pages
 
+## Reference
+- [RanFeldesh/github-pages-demo](https://github.com/RanFeldesh/github-pages-demo) 
+
 ## Setup
 
 1. `python -m venv ./venv/github-pages/` - Create a virtual environment
