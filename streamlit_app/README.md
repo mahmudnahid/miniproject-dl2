@@ -2,7 +2,7 @@
 
 ## Streamlit and Its Use-Cases
 
-This repository includes two beginner-level examples of using [Streamlit](https://github.com/streamlit/streamlit) which:
+This repository includes a beginner-level example of using [Streamlit](https://github.com/streamlit/streamlit) which:
 
 >Allow you to turn data scripts into shareable web apps in minutes, not weeks. It’s all Python, open-source, and free! And once you’ve created an app you can use our Community Cloud platform to deploy, manage, and share your app.
 
@@ -27,7 +27,7 @@ However, even with limited capabilities (compared to a backend and frontend buil
 1. Fork or Clone. Forking will be needed to serve the app from Streamlit Cloud
 2. To run locally, run `python ./setup/setup.py` from the root folder of the repository (you can first read `/setup/README.md`, or go into the `setup.py` to see what it is doing)
 3. Activate the virtual environment for the app you'd like to run
-4. Run `streamlit run APP-FILE-NAME` from the root (where e.g. `APP-FILE-NAME=./hello_world/streamlit_hello_world.py`). This will start the app locally on your laptop. To stop the app press `ctrl-c` on `Windows` and `Linux`, or `cmd-c` on Mac in the terminal from which you launched the app. 
+4. Run `streamlit run APP-FILE-NAME` from the root (where e.g. `APP-FILE-NAME=./bias_map/streamlit_app.py`). This will start the app locally on your laptop. To stop the app press `ctrl-c` on `Windows` and `Linux`, or `cmd-c` on Mac in the terminal from which you launched the app. 
 5. To serve the app from your own repository, go to [Streamlit Cloud](https://streamlit.io/cloud) and follow the instructions.
 
 ## Notes
