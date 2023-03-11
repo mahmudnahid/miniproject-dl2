@@ -11,7 +11,7 @@ This repository demonstrates:
 
 ## Convert the Notebook to an HTML file
 
-1. `jupyter nbconvert --to html ./notebooks/example.ipynb --output-dir ./docs --TagRemovePreprocessor.enabled=True --TagRemovePreprocessor.remove_input_tags="['noshow']"` - converts the notebook into an HTML file. 
+1. `jupyter nbconvert --to html ./notebooks/example.ipynb --output-dir ../docs --TagRemovePreprocessor.enabled=True --TagRemovePreprocessor.remove_input_tags="['noshow']"` - converts the notebook into an HTML file. 
 
 ## Serve the HTML through Github Pages
 (reference: [official docs](https://docs.github.com/en/pages/quickstart). Jekyll built-in support: [official docs](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll))
